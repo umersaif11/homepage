@@ -4,6 +4,7 @@
 * {
     outline: 1px solid red;
     box-sizing: border-box;
+    
 }
 body {
     margin: 0;
@@ -19,8 +20,34 @@ body {
     --card-color-5: #453218;
     --card-color-6: #5e8f4d;
 }
-
-
-ul {
+.header-visuals {
+    padding-top: 1rem;
+    background-color: var(--primary-color);
+}
+figure > img, 
+.contact-img > img {
+    max-width: 100%;
+    object-fit: cover;
+}
+figure {
+    position: relative;
+    
+}
+figure > figcaption {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    line-height: 1.1;
+}
+figcaption > h1 {
+    font-family: 'Playfair Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: #82e0d0 1px 0 10px;
+}
+.header-content > ul {
     list-style: none;
+    display: flex;
+    gap: 1rem;
 }
