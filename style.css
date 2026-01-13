@@ -1,8 +1,24 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     outline: 1px solid red;
+    box-sizing: border-box;
 }
-
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+    --primary-color: #0891b2;
+    --bg-color: white;
+    --card-color-1: #9e1c1c;
+    --card-color-2: #7c75ca;
+    --card-color-3: #c363b4;
+    --card-color-4: #d88f39;
+    --card-color-5: #453218;
+    --card-color-6: #5e8f4d;
+}
 
 
 ul {
