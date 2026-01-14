@@ -107,8 +107,8 @@ main > h2 {
 .card {
     background-color: var(--bg-color);
     box-shadow: 0px 0px 20px -4px rgb(0, 0, 0);
-    /* border-radius: 0.5rem;
-    overflow: hidden; */
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 .work-img {
     height: 250px;
@@ -178,6 +178,11 @@ main > h2 {
 }
 .img-6 {
     background-color: var(--card-color-6);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .contact-img > img {
