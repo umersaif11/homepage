@@ -164,6 +164,21 @@ main > h2 {
 .img-1 {
     background-color: var(--card-color-1);
 }
+.img-2 {
+    background-color: var(--card-color-2);
+}
+.img-3 {
+    background-color: var(--card-color-3);
+}
+.img-4 {
+    background-color: var(--card-color-4);
+}
+.img-5 {
+    background-color: var(--card-color-5);
+}
+.img-6 {
+    background-color: var(--card-color-6);
+}
 
 .contact-img > img {
     max-width: 100%;
