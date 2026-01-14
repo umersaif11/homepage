@@ -72,7 +72,7 @@ figcaption > h1 {
     letter-spacing: 0.1rem;
 }
 .header-content > p {
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
     font-size: 1.2rem;
     color: #444;
@@ -129,9 +129,15 @@ main > h2 {
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
+    height: 160px;
 }
 .work-info > p {
     margin: 0;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    color: #444;
+    letter-spacing: 0.01rem;
 }
 .work-title-links {
     display: flex;
