@@ -183,6 +183,11 @@ main > h2 {
 footer {
     background-color: var(--primary-color);
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-text, .contact-img {
+    flex: 1 1 300px;
 }
 
 .contact-img > img {
