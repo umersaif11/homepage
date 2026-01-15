@@ -184,10 +184,19 @@ footer {
     background-color: var(--primary-color);
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .contact-text, .contact-img {
     flex: 1 1 300px;
+}
+.contact-text {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-img > img {
