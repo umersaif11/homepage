@@ -37,7 +37,8 @@ body {
 }
 .header .container {
     background-color: white;
-    padding: 1.5rem;
+    width: 88%;
+    margin: 0 auto;
     max-width: 1280px;
 }
 .hero-img {
@@ -58,11 +59,6 @@ body {
     margin: 0;
     text-shadow: #82e0d0 1px 0 10px;
     letter-spacing: 0.15rem;
-}
-.header-content {
-    padding: 0rem 1.3rem 1rem 1.3rem;
-    background-color: var(--bg-color);
-    margin-bottom: 2rem;
 }
 .container > h2 {
     font-family: 'Playfair Display', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -269,5 +265,28 @@ footer {
    TABLET LAYOUT (768px and up)
    ========================================= */
 @media screen and (min-width: 768px) {
-    
+    .header {
+        padding: 8rem 0 0 0;
+    }
+    .header .container {
+        position: relative;
+        width: 80%;
+        padding: 2rem;
+    }
+    .hero-img {
+        width: 350px;
+        height: 350px;
+        display: inline;
+        float: left;
+        padding: 1rem;
+        margin: -1rem 0.5rem 0.2rem -6rem;
+    }
+    .hero-img img{
+        width: 400px;
+        height: 450px;
+        margin: -8rem 0 0 0 ;
+    }
+    .container > ul {
+        margin-top: 2rem;
+    }
 }
